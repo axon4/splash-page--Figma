@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 html {
-	box-sizing: border-box
+	box-sizing: border-box;
 }
 
 body {
@@ -9,14 +9,14 @@ body {
 	overflow-x: hidden;
 	background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
 	font-family: Lato, sans-serif;
-	color: #54575A
+	color: #54575A;
 }
 
 .wrapper {
 	position: relative;
 	margin: auto;
 	width: 1440px;
-	height: 1379px
+	height: 1379px;
 }
 
 .brand-image {
@@ -24,14 +24,14 @@ body {
 	top: 50.25px;
 	left: 221px;
 	width: 193px;
-	height: 47.64px
+	height: 47.64px;
 }
 
 .background-toggles {
 	position: absolute;
 	top: 70px;
 	right: 150px;
-	display: flex
+	display: flex;
 }
 
 .background-toggles > div {
@@ -40,24 +40,30 @@ body {
 	height: 25px;
 	border-radius: 5px;
 	box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.3);
-	cursor: pointer
+	cursor: pointer;
 }
 
 .background-1 {
 	background-color: #F2F2F2;
-	background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23b8b8b8' fill-opacity='0.2' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='3'/%3E%3Ccircle cx='13' cy='13' r='3'/%3E%3C/g%3E%3C/svg%3E")
+	background-image: url('data:image/svg+xml,%3Csvg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="%23B8B8B8" fill-opacity="0.2" fill-rule="evenodd"%3E%3Ccircle cx="3" cy="3" r="3"/%3E%3Ccircle cx="13" cy="13" r="3"/%3E%3C/g%3E%3C/svg%3E');
 }
 
 .background-2 {
-	background: #ADA996;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #ADA996;
+	/* fallBack for old browsers */
+	background: -webkit-linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
+	/* W3C, InterNet Explorer 10+ / Edge, FireFox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .background-3 {
-	background: #8E9EAB;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #EEF2F3, #8E9EAB);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #EEF2F3, #8E9EAB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #8E9EAB;
+	/* fallBack for old browsers */
+	background: -webkit-linear-gradient(to bottom, #EEF2F3, #8E9EAB);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #EEF2F3, #8E9EAB);
+	/* W3C, InterNet Explorer 10+ / Edge, FireFox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .title {
@@ -69,7 +75,7 @@ body {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 64px;
-	line-height: 67px
+	line-height: 67px;
 }
 
 .text {
@@ -89,12 +95,12 @@ body {
 	top: 531px;
 	left: 221px;
 	width: 138.44px;
-	height: 46.28px
+	height: 46.28px;
 }
 
 .app-store-button img {
 	width: 138.44px;
-	height: 46.28px
+	height: 46.28px;
 }
 
 .google-play-button {
@@ -102,12 +108,12 @@ body {
 	top: 531px;
 	left: 381.81px;
 	width: 156.19px;
-	height: 46.28px
+	height: 46.28px;
 }
 
 .google-play-button img {
 	width: 156.19px;
-	height: 46.28px
+	height: 46.28px;
 }
 
 .main-image-container {
@@ -115,11 +121,11 @@ body {
 	top: 229.73px;
 	left: 683.28px;
 	width: 535.72px;
-	height: 309.27px
+	height: 309.27px;
 }
 
 .main-image-container img {
-	height: 411.15px
+	height: 411.15px;
 }
 
 .profile-image {
@@ -127,7 +133,7 @@ body {
 	top: 686px;
 	right: 479px;
 	left: 737px;
-	height: 444px
+	height: 444px;
 }
 
 .product-image {
@@ -135,7 +141,7 @@ body {
 	top: 1157px;
 	right: 479px;
 	left: 737px;
-	height: 222px
+	height: 222px;
 }
 
 .orders-image {
@@ -143,7 +149,7 @@ body {
 	top: 913px;
 	right: 737px;
 	left: 479px;
-	height: 474px
+	height: 474px;
 }
 
 .cart-image {
@@ -151,7 +157,7 @@ body {
 	top: 1157px;
 	right: 995px;
 	left: 221px;
-	height: 222px
+	height: 222px;
 }
 
 .home-image {
@@ -159,5 +165,5 @@ body {
 	top: 908px;
 	right: 221px;
 	left: 995px;
-	height: 474px
+	height: 474px;
 }

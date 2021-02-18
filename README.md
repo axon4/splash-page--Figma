@@ -1,7 +1,7 @@
-# Splash Page (Figma)
+# Splash-Page (Figma)
 
-* Recreating a UI from Figma into a splash page.
-* Includes a background toggler for feedback to the designer.
+* reCreating user-interFace from Figma inTo splash-page
+* includes backGround-toggle for feedBack to deSigner
 
 ## Stack
 
